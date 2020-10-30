@@ -1,23 +1,12 @@
 # bizznislog.com
 
-> Implement a simple message board web application. The application should have two services: createMessage
-and listMessages. The services should be implemented using a protocol (of your choice) running on HTTP.
+> BizznisLog is a site that gathers all the information you'd want to know about startups and local businesses. After struggling all the time to find information about start-ups, what they are doing, where they are and if they are hiring we dicided to build this site to get start-ups and local businesses to use this platform to reach out to the masses and be known and also to make it eaisier for them to be found easier.
 
-> 1. CreateMessage receives a message in the request and persists it in the application. The message should have 4 fields: 
-> - title     ---> can be arbitrary strings (with limited lengths)
-> - content   ---> can be arbitrary strings (with limited lengths)
-> - sender    ---> can be arbitrary strings (with limited lengths)
-> - url       ---> Url should be a valid url
 
-> 2. ListMessages service lists all the messages persisted in the application. The service should support two response versions within the same endpoint. The caller is able to define which response version he can handle.
-
-### Requirements
-``` 
-view requirements file in project
-or
-run pip -r requirements.txt
-```
-> *NOTE : The validators_collection module recognizes the pattern https://, ftp://  etc. for validating the URL and .com, .in, .something at the end of the URL.
+### Site 
+> The site has two types of users
+> 1. Business Clients - This kind of users will create profiles of their businesses and give all details needed for general users to query
+> 2. General Users - This users get to query for information about companies,
 
 ### Setup
 - Clone/download project to your desired destination 
