@@ -32,9 +32,9 @@ visit these pages to test functionality
 
 ### Overview
 #### Documentation   
+* useful info *
 
 **Endpoint**
-
 - /about
 
 
@@ -53,17 +53,16 @@ visit these pages to test functionality
 ```
 
 ### TODO:
+- [ ] create a developer branches page
+- [ ] create an API
+- [ ] create a landing page
+- [ ] create a About page
+- [ ] create a All Companies page
+- [ ] Implement query/search
+- [ ] Implement a Business Register
+- [ ] Implement a Business Profile
+- [ ] Implement a Business rating by user
+- [ ] Validate one user to rate once
 
-- [x] create a django project
-- [x] create an app inside django project
-- [x] config setting and & urls
-- [x] create a message model
-- [x] link model to mysql - using makemigrations and migrate
-- [x] create a message model
-- [x] create endpoint services
-- [x] create api/createMessage
-- [x] create api/listMessages
-- [x] create api/listMessages:version=#
-- [x] create api/listMessages:version=#-content_type
-- [x] create api/getMessage/<str:sender>
-- [x] validate url
+
+
