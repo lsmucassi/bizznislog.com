@@ -1,74 +1,42 @@
 # bizznislog.com
 
+#### About
 > BizznisLog is a site that gathers all the information you'd want to know about startups and local businesses. After struggling all the time to find information about start-ups, what they are doing, where they are and if they are hiring we dicided to build this site to get start-ups and local businesses to use this platform to reach out to the masses and be known and also to make it eaisier for them to be found easier.
 
 
-### Site 
+#### Site 
 > The site has two types of users
 > 1. Business Clients - This kind of users will create profiles of their businesses and give all details needed for general users to query
 > 2. General Users - This users get to query for information about companies,
 
-### Setup
+#### Setup
 - Clone/download project to your desired destination 
 - cd to cloned project
-- cd to 'api' directory( if you are on linux or mac run 'startup.sh' file)
-  ``` ./startup.sh ```
-- open local host displayed on output from running script or python manage.py runserver
+- run:
+  ```npm install   ```
+- open local host displayed on output from running script
 - start testing
 
-or 
-
-> skip if you ran the startup file
-- Clone/download project to your desired destination 
-- cd to cloned project
-- create virtual env & activate env (optional)
-- cd to main project('api folder') 
-- make migrations
-  ``` run python manage.py makemigrations ```
-- migrate & runserver
-  ``` run python manage.py migrate ```
-- run server
-  ``` run python manage.py runserver ```
-- start testing queries 
-
-### Testing API
+#### Testing 
 > after running the server:
+visit these pages to test functionality
 ```
-use the browser or postman or any Http / API testing tool, default host is on local host port 8000
-
-- api/getMessage/sender
-: retrieves a single message matching the string passed as a query to the url
-e.g http://128.0.0.1:8000/api/getMessage/Mr Secure
-
-- api/listMessages
-: displays all messages based on the query passed to the url
-e.g
-    - http://128.0.0.1:8000/api/listMessages - lists all without urls
-    - http://128.0.0.1:8000/api/listMessages:version=2 - default version 2 returns all messages with urls in json form
-    - http://128.0.0.1:8000/api/listMessages:version=2-json - returns all messages with urls in json form
-    - http://128.0.0.1:8000/api/listMessages:version=2-xml - returns all messages in xml form
-
-- api/createMessage
-: creates a message and stores to the db
-e.g http://128.0.0.1:8000/api/createMessage
-    - populate all 4 required fields
+-
+-
+-
+-
+-
+-
 ```
 
 
-## Overview
-### Documentation   
+### Overview
+#### Documentation   
 
 **Endpoint**
 
-- `Get api/getMessage/sender` : returns a message based on a given url
+- /about
 
-- `GET api/listMessages` : displays all messages
-
-- `GET api/listMessages:version=#` : default version 2 displays all messages
-
-- `GET api/listMessages:version=#-content_type` : version two displays all messages based on type passed
-
-- `POST api/createMessage` : creates a message and stores to the server
 
 **Responses**
  - `200 OK` - on success
