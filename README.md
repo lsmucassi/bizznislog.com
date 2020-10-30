@@ -9,6 +9,10 @@
 > 1. Business Clients - This kind of users will create profiles of their businesses and give all details needed for general users to query
 > 2. General Users - This users get to query for information about companies,
 
+### Overview
+#### Documentation   
+* useful info *
+
 #### Setup
 - Clone/download project to your desired destination 
 - cd to cloned project
@@ -29,13 +33,14 @@ visit these pages to test functionality
 -
 ```
 
-
-### Overview
-#### Documentation   
-* useful info *
-
-**Endpoint**
+**Endpoints**
+- /
 - /about
+- /companies
+- /register
+- /biz_login
+- /admin_login
+
 
 
 **Responses**
@@ -63,6 +68,7 @@ visit these pages to test functionality
 - [ ] Implement a Business Profile
 - [ ] Implement a Business rating by user
 - [ ] Validate one user to rate once
-
+- [ ] Implement an admin dashbord for businesses
+- [ ] Implement an admin dashboard for developers/support
 
 
