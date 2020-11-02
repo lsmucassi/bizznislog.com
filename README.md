@@ -58,7 +58,7 @@ visit these pages to test functionality
 ```
 
 ### TODO:
-- [ ] create a developer branches page
+- [x] create a developer branches
 - [ ] create an API
 - [ ] create a landing page
 - [ ] create a About page
