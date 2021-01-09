@@ -1,0 +1,28 @@
+{
+  "name": "graphql_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "NODE_ENV=production node -r esm .",
+    "dev": "eval $(cat .env)  nodemon -r esm"
+  },
+  "keywords": [],
+  "author": "giyant",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.1",
+    "bcryptjs": "^2.4.3",
+    "consola": "^2.15.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
